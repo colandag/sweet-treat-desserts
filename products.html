@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Sweet Treat Desserts</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <style>
+        
+        .product img {
+            animation: fadeIn 1.5s ease-in-out;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .product img:hover {
+            transform: scale(1.1);
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu li {
+            padding: 8px 12px;
+        }
+
+        .dropdown-menu li a {
+            color: #006d5b;
+            text-decoration: none;
+        }
+
+        .dropdown-menu li a:hover {
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sweet_treat_desserts_logo.png" alt="Sweet Treat Desserts Logo" class="logo">
+        <h1>Sweet Treat Desserts</h1>
+        <p>Delicious Desserts, Delivered to Your Doorstep</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="products.html">Products</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#cakes">Ice Cream Cakes</a></li>
+                </ul>
+            </li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Our Best-Selling Desserts</h2>
+        
+        <div class="product">
+            <img src="ultimate_chocolate.JPEG" alt="Ultimate Chocolate Ice Cream Cake">
+            <h3>Ultimate Chocolate</h3>
+            <p>A layer of chocolate cake with chocolate ice cream, topped with pure dark chocolate shavings. Indulge in this melt-in-your-mouth chocolatey goodness.</p>
+        </div>
+        <div class="product">
+            <img src="black_forest.JPEG" alt="Black Forest Ice Cream Cake">
+            <h3>Black Forest</h3>
+            <p>Moist chocolate cake sandwiched with whipped cream, dark chocolate shavings, and maraschino cherries. A rich and indulgent ice cream cake with a touch of elegance.</p>
+        </div>
+        <div class="product">
+            <img src="cookies_and_cream.JPEG" alt="Cookies & Cream Ice Cream Cake">
+            <h3>Cookies & Cream</h3>
+            <p>A layer of moist chocolate cake covered with cookies & cream ice cream. Topped with Oreo cookies. Rich, creamy, heavenly. Make this your go-to pick-me-up treat!</p>
+        </div>
+        <div class="product">
+            <img src="cookie_crumble.JPEG" alt="Cookie Crumble Ice Cream Cake">
+            <h3>Cookie Crumble</h3>
+            <p>Moist chocolate cake swirled with chocolate ice cream and sprinkled with chocolate chip cookies. Let the smooth, creamy ice cream and delicious cookie pieces invigorate you.</p>
+        </div>
+        <div class="product">
+            <img src="tiramisu.JPEG" alt="Tiramisu Ice Cream Cake">
+            <h3>Tiramisu</h3>
+            <p>A delightful twist on the classic Italian dessert. Layers of coffee-flavored sponge cake and creamy mascarpone ice cream are dusted with cocoa powder and topped with chocolate chips. Perfect for coffee lovers seeking a decadent, melt-in-your-mouth treat!</p>
+        </div>
+        <h2>Pricing</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dessert</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ultimate Chocolate</td>
+                    <td>Php 320.00</td>
+                </tr>
+                <tr>
+                    <td>Black Forest</td>
+                    <td>Php 320.00</td>
+                </tr>
+                <tr>
+                    <td>Cookies & Cream</td>
+                    <td>Php 320.00</td>
+                </tr>
+                <tr>
+                    <td>Cookie Crumble</td>
+                    <td>Php 320.00</td>
+                </tr>
+                <tr>
+                    <td>Tiramisu</td>
+                    <td>Php 320.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2025 Sweet Treat Desserts. All rights reserved.</p>
+    </footer>
+</body>
+</html>

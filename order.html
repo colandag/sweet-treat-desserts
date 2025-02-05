@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Sweet Treat Desserts</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+    <header>
+        <img src="sweet_treat_desserts_logo.png" alt="Sweet Treat Desserts Logo" class="logo">
+        <h1>Order Your Favorite Desserts</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="order.html" class="active">Order Now</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+            <fieldset>
+                <legend>Select Your Dessert</legend>
+                <label for="dessert">Choose a Dessert:</label>
+                <select id="dessert" name="dessert">
+                    <option value="ultimate chocolate">Ultimate Chocolate</option>
+                    <option value="black forest">Black Forest</option>
+                    <option value="cookies & cream">Cookies & Cream</option>
+                    <option value="cookie crumble">Cookie Crumble</option>
+                    <option value="tiramisu">Tiramisu</option>
+                </select><br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Details</legend>
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea><br>
+                <label for="date">Preferred Delivery Date:</label>
+                <input type="date" id="date" name="date" required>
+            </fieldset>
+            <button type="submit" class="submit-button">Place Order</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Sweet Treat Desserts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
